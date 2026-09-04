@@ -1,0 +1,36 @@
+{
+  "name": "@superinstance/live-canon-gh",
+  "version": "0.2.0",
+  "description": "Live Canon — the AI-Writings canon as a navigable cell fabric, 7 operations: NAVIGATE, CONFLUENCE, LINEAGE, GHOST, TICK, CLAIM, DRILL. 71 papers bundled (F98-F169). GitHub Packages mirror of @superinstance/live-canon.",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "index.js",
+    "data.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "quilt",
+    "cell-fabric",
+    "polyformalism",
+    "shape-rag",
+    "live-canon",
+    "ai-writings",
+    "github-packages"
+  ],
+  "author": "Casey Digennaro <superinstance@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SuperInstance/quilt-live-canon.git"
+  },
+  "homepage": "https://live-canon.superinstance.dev",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
