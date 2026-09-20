@@ -1,7 +1,7 @@
 {
   "name": "@superinstance/live-canon-gh",
-  "version": "0.2.0",
-  "description": "Live Canon — the AI-Writings canon as a navigable cell fabric, 7 operations: NAVIGATE, CONFLUENCE, LINEAGE, GHOST, TICK, CLAIM, DRILL. 71 papers bundled (F98-F169). GitHub Packages mirror of @superinstance/live-canon.",
+  "version": "0.2.1",
+  "description": "Live Canon — the AI-Writings canon as a navigable cell fabric, 7 operations: NAVIGATE, CONFLUENCE, LINEAGE, GHOST, TICK, CLAIM, DRILL. 71 papers bundled (F98-F169). Canonical state hash 0x445185a3a99fd2e7. GitHub Packages mirror of @superinstance/live-canon.",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -12,7 +12,7 @@
     "README.md"
   ],
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.js && node test/canon-hash.test.js"
   },
   "keywords": [
     "quilt",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SuperInstance/quilt-live-canon.git"
+    "url": "https://github.com/SuperInstance/live-canon-gh.git"
   },
   "homepage": "https://live-canon.superinstance.dev",
   "engines": {

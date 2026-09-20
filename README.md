@@ -8,6 +8,11 @@ This is one of the **SuperInstance** packages. Install:
 npm install @superinstance/live-canon-gh
 ```
 
+Bundles the 71-paper committed corpus (F98-F169). Canonical state hash:
+`0x445185a3a99fd2e7` — byte-exact with `@superinstance/live-canon`,
+`quilt-live-canon` (PyPI), and the Cloudflare Worker
+(live-canon.superinstance.dev). Guarded by `test/canon-hash.test.js`.
+
 ## Self-test
 
 ```bash
